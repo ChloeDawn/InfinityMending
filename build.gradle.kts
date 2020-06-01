@@ -37,6 +37,7 @@ tasks.withType<JavaCompile> {
 }
 
 signing {
+    isRequired = hasProperty("signing.gnupg.keyId")
     useGpgCmd()
     sign(configurations.archives.get())
 }
