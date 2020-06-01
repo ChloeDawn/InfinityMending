@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "infinitymending",
+  "name": "Infinity Mending",
+  "version": "$version",
+  "description": "Reverts the mutual exclusivity of Mending and Infinity enchantments",
+  "license": "Apache-2.0",
+  "depends": {
+    "fabricloader": ">=0.8.4"
+  },
+  "mixins": [
+    "mixins/infinitymending/mixins.json"
+  ],
+  "authors": [
+    {
+      "name": "Chloe Dawn",
+      "contact": {
+        "email": "chloe@sapphic.dev",
+        "homepage": "https://sapphic.dev"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://git.io/JfKrN",
+    "sources": "https://git.io/JfKrN",
+    "issues": "https://git.io/JfKrb"
+  }
+}
